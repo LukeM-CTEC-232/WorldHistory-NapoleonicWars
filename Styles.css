@@ -2,7 +2,14 @@
     font-family: VR_OCD; 
     src: url(VCR_OSD_MONO_1.001.ttf);
 }
-@supports (-webkit-text-stroke: 3px black) {
+
+   body{
+      background-image: url("napolean.png");
+	     background-attachment: fixed;
+  background-position: center;
+   }
+
+ @supports (-webkit-text-stroke: 3px black) {
 h2 {
     font-family: VR_OCD;
         -webkit-text-fill-color: white;
@@ -31,14 +38,46 @@ h5 {
 font-size: 45px; 
        font-weight: bolder;
 }
-body{
-background-color:gold;
+
+table {
+  table-layout: fixed ;
+  width: 80% ;
 }
-img{
-  border: 3px solid #ffffff;
-border-radius: 3px;	
+td {
+  width: 25% ;
 }
-.noborder img{
-  border: 0px solid #ffffff;
-border-radius: 0px;	
+
+ .title img { 
+-webkit-box-shadow: none; /* Safari */ 
+box-shadow: none;
+-moz-border-radius: 0px;
+-khtml-border-radius: 0px;
+-webkit-border-radius: 0px;
+border-radius: 0px;
+}
+
+	  .pfp img { 
+-webkit-box-shadow: none; /* Safari */ 
+box-shadow: none;
+-moz-border-radius: 0px;
+-khtml-border-radius: 0px;
+-webkit-border-radius: 0px;
+border-radius: 0px;
+}
+	 
+img {
+  border: 10px solid #ffffff;
+border-radius: 10px;	
+}
+
+	 .login p{
+	  border: 10px solid #000000;
+border-radius: 10px;	 
+	 }
+
+}
+
+
+}
+
 }
