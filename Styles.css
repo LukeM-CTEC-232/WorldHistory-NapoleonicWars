@@ -31,7 +31,7 @@ h4 {
     -webkit-text-stroke: 0.5px black;
 font-size: 120px; 
   font-weight: 900px; 
-background-color: hsla(100%, 100%, 100%, 0%);
+background-color: hsla(0%, 0%, 0%, 100%);
 }
 h5 {
     font-family: VR_OCD;
