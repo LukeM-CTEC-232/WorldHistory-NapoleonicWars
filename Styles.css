@@ -3,6 +3,23 @@
     src: url(VCR_OSD_MONO_1.001.ttf);
 }
 
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: green;
+}
+
    body{
       background-image: url("napolean.png");
 	     background-attachment: fixed;
