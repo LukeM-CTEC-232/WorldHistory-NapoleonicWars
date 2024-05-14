@@ -5,19 +5,19 @@
 
 
 a:link {
-  color: cyan;
+  color: aqua;
 }
 
 a:visited {
-  color: cyan;
+  color: aqua;
 }
 
 a:hover {
-  color: cyan;
+  color: aqua;
 }
 
 a:active {
-  color: green;
+  color: lime;
 }
 
    body{
