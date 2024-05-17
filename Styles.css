@@ -24,6 +24,10 @@ a:active {
       background-image: url("napolean.png");
 	     background-attachment: fixed;
   background-position: center;
+	     margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 150px;
    }
 
  @supports (-webkit-text-stroke: 3px black) {
